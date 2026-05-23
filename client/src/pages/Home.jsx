@@ -5,7 +5,7 @@ import { GetPosts } from '../api';
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [search, setSearch] = useState("");
   const [filterPosts,setFilterPosts] = useState([]);
